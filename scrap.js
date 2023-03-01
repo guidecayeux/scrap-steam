@@ -3,7 +3,7 @@ const result = {};
 
 let domParser = new DOMParser();
 let parsedData;
-let categories = ['garage door', 'l96']
+let categories = ['garage door', 'l96', 'Large Wooden Box']
 
 function getPage(categorie, page) {
     fetch(`https://steamcommunity.com/workshop/browse/?appid=252490&searchtext=&childpublishedfileid=0&browsesort=accepted&section=mtxitems&requiredtags%5B%5D=${categorie}&created_date_range_filter_start=0&created_date_range_filter_end=0&updated_date_range_filter_start=0&updated_date_range_filter_end=0&p=${page}`)
